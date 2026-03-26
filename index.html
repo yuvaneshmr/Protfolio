@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuvanesh Mani | Portfolio</title>
+    <meta name="description" content="Portfolio of Yuvanesh Mani – Software Developer, Data Science & ML Engineer.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.10.1/tsparticles.bundle.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Particle BG -->
+    <div id="tsparticles"></div>
+    <div class="vignette-overlay"></div>
+
+    <!-- Ambient Orbs -->
+    <div class="orbs-wrapper" aria-hidden="true">
+        <div class="orb orb-cyan"></div>
+        <div class="orb orb-copper"></div>
+        <div class="orb orb-violet"></div>
+    </div>
+
+    <!-- ═══════════ NAVBAR ═══════════ -->
+    <nav class="pro-nav reveal-down">
+        <div class="container nav-container">
+            <div class="logo font-space">Y<span class="text-gradient-flow">M</span></div>
+            <ul class="nav-links">
+                <li><a href="#hero">Overview</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#analytics">Dashboard</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications"><i class="fas fa-certificate nav-cert-icon"></i> Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="resume.pdf" download class="nav-resume-btn magnetic-btn">
+                <i class="fas fa-download"></i>
+                <span>Resume</span>
+            </a>
+        </div>
+    </nav>
+<!-- ═══════════ HERO ═══════════ -->
+<header id="hero" class="hero-section">
+    <div class="container hero-inner text-center">
+
+        <!-- Profile Picture -->
+        <div class="profile-ring-wrapper reveal-up">
+
+            <div class="profile-ring"></div>
+
+            <div class="profile-ring-inner">
+                <img src="profile.jpg.jpeg" alt="Yuvanesh Mani" class="profile-img"
+                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <div class="profile-fallback">YM</div>
+            </div>
+
+            <div class="profile-glow-ring"></div>
+
+            <span class="profile-status-badge">
+                <span class="pulse-dot"></span> Available for Work
+            </span>
+
+        </div>
+
+        <!-- Name -->
+        <h1 class="hero-name reveal-up font-space" data-delay="0.1">
+    <span class="text-white">Yuvanesh</span>
+    <span class="text-gradient-flow">Mani</span>
+</h1>
+
+        <!-- Role -->
+        <p class="hero-role reveal-up" data-delay="0.15">
+            <span class="role-chip">Software Developer</span>
+            <span class="role-sep">·</span>
+            <span class="role-chip secondary">Data Science &amp; ML Engineer</span>
+        </p>
+
+        <!-- Description -->
+        <p class="hero-desc reveal-up mx-auto" data-delay="0.2">
+            Engineering scalable software systems and leveraging data science &amp; machine learning to build
+            <strong>intelligent, insight-driven solutions</strong> that solve real-world problems.
+        </p>
+
+        <!-- Skills Marquee -->
+        <div class="skills-marquee-wrapper reveal-up" data-delay="0.25">
+            <div class="skills-marquee-track">
+                <div class="skills-marquee-inner">
+                    <span class="skill-pill"><i class="fab fa-python"></i> Python</span>
+                    <span class="skill-divider">◆</span>
+                    <span class="skill-pill"><i class="fas fa-flask"></i> Flask</span>
+                    <span class="skill-divider">◆</span>
+                    <span class="skill-pill"><i class="fas fa-brain"></i> Machine Learning</span>
+                    <span class="skill-divider">◆</span>
+                    <span class="skill-pill"><i class="fas fa-table"></i> Pandas / NumPy</span>
+                    <span class="skill-divider">◆</span>
+                    <span class="skill-pill"><i class="fas fa-database"></i> SQL</span>
+                    <span class="skill-divider">◆</span>
+                    <span class="skill-pill"><i class="fas fa-chart-pie"></i> Power BI</span>
+                    <span class="skill-divider">◆</span>
+                    <span class="skill-pill"><i class="fas fa-code"></i> C++</span>
+                    <span class="skill-divider">◆</span>
+                    <span class="skill-pill"><i class="fas fa-robot"></i> Deep Learning</span>
+                    <span class="skill-divider">◆</span>
+                </div>
+
+                <!-- duplicate for animation (KEEP THIS) -->
+                <div class="skills-marquee-inner" aria-hidden="true">
+                    <span class="skill-pill"><i class="fab fa-python"></i> Python</span>
+                    <span class="skill-divider">◆</span>
+                    <span class="skill-pill"><i class="fas fa-flask"></i> Flask</span>
+                    <span class="skill-divider">◆</span>
+                    <span class="skill-pill"><i class="fas fa-brain"></i> Machine Learning</span>
+                    <span class="skill-divider">◆</span>
+                    <span class="skill-pill"><i class="fas fa-table"></i> Pandas / NumPy</span>
+                    <span class="skill-divider">◆</span>
+                    <span class="skill-pill"><i class="fas fa-database"></i> SQL</span>
+                    <span class="skill-divider">◆</span>
+                    <span class="skill-pill"><i class="fas fa-chart-pie"></i> Power BI</span>
+                    <span class="skill-divider">◆</span>
+                    <span class="skill-pill"><i class="fas fa-code"></i> C++</span>
+                    <span class="skill-divider">◆</span>
+                    <span class="skill-pill"><i class="fas fa-robot"></i> Deep Learning</span>
+                    <span class="skill-divider">◆</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- CTA Buttons -->
+        <div class="cta-group justify-center reveal-up" data-delay="0.3">
+
+            <a href="#projects" class="btn btn-primary magnetic-btn">
+                <i class="fas fa-rocket mr-2"></i> View Projects
+            </a>
+
+            <a href="resume.pdf" target="_blank" class="btn btn-ghost magnetic-btn">
+                <i class="fas fa-eye mr-2"></i> View Resume
+            </a>
+
+            <a href="resume.pdf" download class="btn btn-secondary magnetic-btn">
+                <i class="fas fa-download mr-2"></i> Download Resume
+            </a>
+
+            <a href="#contact" class="btn btn-secondary magnetic-btn">
+                Contact Me
+            </a>
+
+        </div>
+
+    </div>
+</header>
+
+    <!-- ═══════════ ABOUT ═══════════ -->
+    <section id="about" class="container section-gap">
+        <div class="section-label reveal-up">Profile</div>
+        <h2 class="section-title font-space reveal-up" data-delay="0.05">Who I <span
+                class="text-gradient-flow">Am</span></h2>
+
+        <div class="grid-2 mt-lg">
+            <div class="spotlight-card tilt-card reveal-up" data-tilt data-tilt-max="3">
+                <div class="card-content p-5">
+                    <div class="card-icon-row mb-4">
+                        <div class="card-icon-box cyan"><i class="fas fa-user-astronaut"></i></div>
+                        <span class="card-tag cyan">ABOUT ME</span>
+                    </div>
+                    <p class="body-text mb-3">I am <strong class="text-bright">Yuvanesh Mani</strong>, a Software
+                        Developer with a focused interest in <strong class="text-cyan">Data Science</strong> and <strong
+                            class="text-copper">Machine Learning</strong>. My journey began with building Python web
+                        applications, mastering system architecture and problem-solving.</p>
+                    <p class="body-text mb-3">As I progressed I developed a keen interest in working with data —
+                        analyzing patterns, building visualizations, and extracting actionable insights.</p>
+                    <p class="body-text">Today I exist at the <strong class="text-bright">intersection of software
+                            engineering and data science</strong>, enabling me to build systems that are both highly
+                        functional and incredibly insightful.</p>
+                    <div class="divider mt-4 mb-4"></div>
+                    <div class="info-row">
+                        <div class="info-item"><i class="fas fa-graduation-cap text-cyan"></i><span><strong>Lovely
+                                    Professional University</strong></span></div>
+                        <div class="info-item"><i class="fas fa-map-marker-alt text-copper"></i><span>India</span></div>
+                        <div class="info-item"><i class="fas fa-calendar-alt text-violet"></i><span>2023 – 2027</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="spotlight-card tilt-card reveal-up" data-tilt data-tilt-max="3" data-delay="0.15">
+                <div class="card-content p-5">
+                    <div class="card-icon-row mb-4">
+                        <div class="card-icon-box copper"><i class="fas fa-bolt"></i></div>
+                        <span class="card-tag copper">MY APPROACH</span>
+                    </div>
+                    <ul class="approach-list">
+                        <li><i class="fas fa-check-circle text-cyan"></i><span>Build <strong>clean, scalable</strong>
+                                and maintainable software systems</span></li>
+                        <li><i class="fas fa-check-circle text-copper"></i><span>Leverage data to <strong>enhance
+                                    application intelligence</strong></span></li>
+                        <li><i class="fas fa-check-circle text-violet"></i><span>Focus on <strong>clarity</strong> in
+                                both code and visualization</span></li>
+                        <li><i class="fas fa-check-circle text-cyan"></i><span>Create solutions that are
+                                <strong>efficient and insight-driven</strong></span></li>
+                    </ul>
+                    <div class="divider mt-4 mb-4"></div>
+                    <div class="card-icon-row mb-3">
+                        <div class="card-icon-box violet"><i class="fas fa-chart-network"></i></div>
+                        <span class="card-tag violet">DATA-DRIVEN DEV</span>
+                    </div>
+                    <p class="body-text">Integrating analytics into applications, designing dashboards for
+                        decision-making, and building systems that are both <strong
+                            class="text-bright">functional</strong> and <strong
+                            class="text-gradient-flow">insight-aware</strong>.</p>
+                    <div class="pro-tags mt-4">
+                        <span class="tag-cyan">Pandas</span><span class="tag-copper">Flask</span><span
+                            class="tag-violet">ML</span><span class="tag-cyan">SQL</span><span class="tag-copper">Power
+                            BI</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════ ANALYTICS DASHBOARD ═══════════ -->
+    <section id="analytics" class="container section-gap">
+        <div class="section-label reveal-up">Analytics</div>
+        <h2 class="section-title font-space reveal-up" data-delay="0.05">Skill <span
+                class="text-gradient-flow">Dashboard</span></h2>
+        <p class="section-sub reveal-up" data-delay="0.1">Quantitative view of technical proficiency and focus
+            distribution.</p>
+
+        <div class="dashboard-grid mt-lg">
+            <div class="spotlight-card tilt-card reveal-up" data-tilt data-tilt-max="2" data-tilt-glare
+                data-tilt-max-glare="0.1">
+                <div class="card-content p-4">
+                    <div class="chart-header cyan-border"><i class="fas fa-chart-line text-cyan"></i> <span
+                            class="text-xs text-muted uppercase tracking-wide">Knowledge Trajectory</span></div>
+                    <div class="chart-holder"><canvas id="lineChart"></canvas></div>
+                </div>
+            </div>
+            <div class="spotlight-card tilt-card reveal-up" data-delay="0.1" data-tilt data-tilt-max="2" data-tilt-glare
+                data-tilt-max-glare="0.1">
+                <div class="card-content p-4">
+                    <div class="chart-header copper-border"><i class="fas fa-spider text-copper"></i> <span
+                            class="text-xs text-muted uppercase tracking-wide">Capability Matrix</span></div>
+                    <div class="chart-holder"><canvas id="radarChart"></canvas></div>
+                </div>
+            </div>
+            <div class="spotlight-card tilt-card reveal-up" data-delay="0.2" data-tilt data-tilt-max="2" data-tilt-glare
+                data-tilt-max-glare="0.1">
+                <div class="card-content p-4">
+                    <div class="chart-header violet-border"><i class="fas fa-chart-bar text-violet"></i> <span
+                            class="text-xs text-muted uppercase tracking-wide">Stack Utilization</span></div>
+                    <div class="chart-holder"><canvas id="barChart"></canvas></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="spotlight-card reveal-up mt-4" data-delay="0.3">
+            <div class="card-content p-4">
+                <div class="d-flex justify-between align-items-center flex-wrap" style="gap:1rem;">
+                    <span class="text-xs uppercase tracking-wide text-muted font-space"><i
+                            class="fas fa-code text-cyan mr-2"></i>Active Tooling Registry</span>
+                    <div class="pro-tags">
+                        <span class="tag-cyan">Flask</span><span class="tag-copper">Pandas</span><span
+                            class="tag-violet">NumPy</span>
+                        <span class="tag-cyan">Matplotlib</span><span class="tag-copper">Seaborn</span><span
+                            class="tag-violet">Power BI</span>
+                        <span class="tag-cyan">Excel</span><span class="tag-copper">Jupyter</span><span
+                            class="tag-violet">MySQL</span><span class="tag-cyan">Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════ PROJECTS ═══════════ -->
+    <section id="projects" class="container section-gap">
+        <div class="section-label reveal-up">Work</div>
+        <h2 class="section-title font-space reveal-up" data-delay="0.05">Featured <span
+                class="text-gradient-flow">Deployments</span></h2>
+        <p class="section-sub reveal-up" data-delay="0.1">Production-grade applications and advanced analytic models.
+        </p>
+
+        <div class="projects-grid mt-lg">
+
+            <!-- Project 1 -->
+            <div class="spotlight-card project-card tilt-card reveal-up" data-tilt data-tilt-max="3"
+                data-tilt-scale="1.02">
+                <div class="project-img-slot">
+                    <img src="projects/hospital.jpg" alt="Hospital Management"
+                        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="img-placeholder cyan-grad"><i class="fas fa-hospital-alt"></i><span>Hospital Management
+                            System</span></div>
+                </div>
+                <div class="card-content p-4">
+                    <div class="d-flex justify-between align-items-center mb-3">
+                        <span class="proj-type-badge cyan">Full Stack</span>
+                        <a href="https://github.com/YuvaneshMani" target="_blank" class="proj-link-btn"><i
+                                class="fab fa-github mr-1"></i>Code</a>
+                    </div>
+                    <h3 class="proj-title">Hospital Management System</h3>
+                    <ul class="proj-feat-list mt-3">
+                        <li><i class="fas fa-angle-right text-cyan"></i>Built backend &amp; structured data models</li>
+                        <li><i class="fas fa-angle-right text-cyan"></i>Improved data management &amp; workflows</li>
+                        <li><i class="fas fa-angle-right text-cyan"></i>Implemented validation &amp; dynamic UI</li>
+                    </ul>
+                    <div class="pro-tags mt-4 pt-3 border-top">
+                        <span class="tag-cyan">Flask</span><span class="tag-copper">Python</span><span
+                            class="tag-violet">SQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="spotlight-card project-card tilt-card reveal-up" data-delay="0.1" data-tilt data-tilt-max="3"
+                data-tilt-scale="1.02">
+                <div class="project-img-slot">
+                    <img src="projects/education.jpg" alt="Educational Performance"
+                        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="img-placeholder copper-grad"><i class="fas fa-graduation-cap"></i><span>Educational
+                            Performance Analysis</span></div>
+                </div>
+                <div class="card-content p-4">
+                    <div class="d-flex justify-between align-items-center mb-3">
+                        <span class="proj-type-badge copper">Data Analytics</span>
+                        <a href="https://github.com/YuvaneshMani" target="_blank" class="proj-link-btn"><i
+                                class="fab fa-github mr-1"></i>Code</a>
+                    </div>
+                    <h3 class="proj-title">Educational Performance Analysis</h3>
+                    <ul class="proj-feat-list mt-3">
+                        <li><i class="fas fa-angle-right text-copper"></i>Data cleaning &amp; processing via Pandas</li>
+                        <li><i class="fas fa-angle-right text-copper"></i>Visualization with Matplotlib &amp; Seaborn
+                        </li>
+                        <li><i class="fas fa-angle-right text-copper"></i>Identified key trends &amp; performance gaps
+                        </li>
+                    </ul>
+                    <div class="pro-tags mt-4 pt-3 border-top">
+                        <span class="tag-copper">Pandas</span><span class="tag-violet">Matplotlib</span><span
+                            class="tag-cyan">Seaborn</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="spotlight-card project-card tilt-card reveal-up" data-delay="0.2" data-tilt data-tilt-max="3"
+                data-tilt-scale="1.02">
+                <div class="project-img-slot">
+                    <img src="projects/linguistic.jpg" alt="Linguistic Demographics"
+                        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="img-placeholder violet-grad"><i class="fas fa-globe-americas"></i><span>Linguistic
+                            Demographics Analysis</span></div>
+                </div>
+                <div class="card-content p-4">
+                    <div class="d-flex justify-between align-items-center mb-3">
+                        <span class="proj-type-badge violet">Visualization</span>
+                        <a href="https://github.com/YuvaneshMani" target="_blank" class="proj-link-btn"><i
+                                class="fab fa-github mr-1"></i>Code</a>
+                    </div>
+                    <h3 class="proj-title">Linguistic Demographics Analysis</h3>
+                    <ul class="proj-feat-list mt-3">
+                        <li><i class="fas fa-angle-right text-violet"></i>Advanced dashboards using Excel</li>
+                        <li><i class="fas fa-angle-right text-violet"></i>Analyzed language distribution patterns</li>
+                        <li><i class="fas fa-angle-right text-violet"></i>Delivered insights through complex charts</li>
+                    </ul>
+                    <div class="pro-tags mt-4 pt-3 border-top">
+                        <span class="tag-violet">Excel</span><span class="tag-cyan">Power BI</span><span
+                            class="tag-copper">Analytics</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="spotlight-card project-card tilt-card reveal-up" data-delay="0.3" data-tilt data-tilt-max="3"
+                data-tilt-scale="1.02">
+                <div class="project-img-slot">
+                    <img src="projects/cyberschool.jpg" alt="Cyber School"
+                        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="img-placeholder mixed-grad"><i class="fas fa-shield-alt"></i><span>Cyber School Web
+                            App</span></div>
+                </div>
+                <div class="card-content p-4">
+                    <div class="d-flex justify-between align-items-center mb-3">
+                        <span class="proj-type-badge cyan">Web App</span>
+                        <a href="https://github.com/YuvaneshMani" target="_blank" class="proj-link-btn"><i
+                                class="fab fa-github mr-1"></i>Code</a>
+                    </div>
+                    <h3 class="proj-title">Cyber School Web Application</h3>
+                    <ul class="proj-feat-list mt-3">
+                        <li><i class="fas fa-angle-right text-cyan"></i>Developed utilizing Flask architecture</li>
+                        <li><i class="fas fa-angle-right text-cyan"></i>Implemented secure routing &amp; validation</li>
+                        <li><i class="fas fa-angle-right text-cyan"></i>Modernized frontend UI elements</li>
+                    </ul>
+                    <div class="pro-tags mt-4 pt-3 border-top">
+                        <span class="tag-cyan">Flask</span><span class="tag-copper">HTML/CSS</span><span
+                            class="tag-violet">Python</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ═══════════ EDUCATION ═══════════ -->
+    <section class="container section-gap">
+        <div class="section-label reveal-up">Education</div>
+        <h2 class="section-title font-space reveal-up" data-delay="0.05">Academic <span
+                class="text-gradient-flow">Registry</span></h2>
+
+        <div class="edu-list mt-lg">
+            <div class="spotlight-card edu-card tilt-card reveal-up" data-tilt data-tilt-max="2">
+                <div class="card-content p-4 d-flex align-items-center">
+                    <div class="edu-icon cyan"><i class="fas fa-university"></i></div>
+                    <div class="edu-info">
+                        <h4 class="edu-name">Lovely Professional University</h4>
+                        <p class="edu-degree">B.Tech Computer Science &amp; Engineering</p>
+                        <div class="edu-meta"><span class="text-cyan fw-bold">CGPA: 6.5</span><span
+                                class="dot-sep">·</span><span>2023 – 2027</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="spotlight-card edu-card tilt-card reveal-up" data-delay="0.1" data-tilt data-tilt-max="2">
+                <div class="card-content p-4 d-flex align-items-center">
+                    <div class="edu-icon copper"><i class="fas fa-school"></i></div>
+                    <div class="edu-info">
+                        <h4 class="edu-name">National Public School</h4>
+                        <p class="edu-degree">Intermediate (12th Grade)</p>
+                        <div class="edu-meta"><span class="text-copper fw-bold">Score: 80%</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="spotlight-card edu-card tilt-card reveal-up" data-delay="0.2" data-tilt data-tilt-max="2">
+                <div class="card-content p-4 d-flex align-items-center">
+                    <div class="edu-icon violet"><i class="fas fa-book-open"></i></div>
+                    <div class="edu-info">
+                        <h4 class="edu-name">National Public School</h4>
+                        <p class="edu-degree">Matriculation (10th Grade)</p>
+                        <div class="edu-meta"><span class="text-violet fw-bold">Score: 85%</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════ CERTIFICATIONS ═══════════ -->
+    <section id="certifications" class="container section-gap">
+        <div class="section-label reveal-up"><i class="fas fa-certificate"></i> Certifications</div>
+        <h2 class="section-title font-space reveal-up" data-delay="0.05">Verified <span
+                class="text-gradient-flow">Credentials</span></h2>
+        <p class="section-sub reveal-up" data-delay="0.1">Professional certifications confirming mastery of key
+            technologies.</p>
+
+        <div class="certs-grid mt-lg">
+
+            <!-- Cert 1 -->
+            <div class="spotlight-card cert-card tilt-card reveal-up" data-tilt data-tilt-max="4">
+                <div class="cert-img-slot">
+                    <img src="certs/oracle.jpg" alt="Oracle Certificate"
+                        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="img-placeholder cyan-grad cert-ph"><i class="fab fa-java fa-2x"></i></div>
+                </div>
+                <div class="card-content p-4">
+                    <div class="cert-badge cyan"><i class="fas fa-certificate"></i></div>
+                    <h4 class="cert-title">Oracle Foundations Associate</h4>
+                    <p class="cert-issuer text-cyan fw-bold">Oracle</p>
+                    <p class="cert-desc text-muted mt-2">Certified in core Oracle Cloud infrastructure and foundational
+                        services.</p>
+                    <div class="cert-actions mt-3">
+                        <a href="#" class="cert-link-btn cyan"><i class="fas fa-external-link-alt mr-1"></i>View
+                            Credential</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cert 2 -->
+            <div class="spotlight-card cert-card tilt-card reveal-up" data-delay="0.1" data-tilt data-tilt-max="4">
+                <div class="cert-img-slot">
+                   <a href="nptel.png" target="_blank">
+    <img src="nptel.png" alt="NPTEL Certificate"
+        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+</a>
+                    <div class="img-placeholder copper-grad cert-ph"><i class="fas fa-shield-alt fa-2x"></i></div>
+                </div>
+                <div class="card-content p-4">
+                    <div class="cert-badge copper"><i class="fas fa-shield-alt"></i></div>
+                    <h4 class="cert-title">Privacy &amp; Security in Online Social Media</h4>
+                    <p class="cert-issuer text-copper fw-bold">NPTEL – IIT Madras</p>
+                    <p class="cert-desc text-muted mt-2">Comprehensive course on digital security, privacy laws, and
+                        data protection strategies.</p>
+                    <div class="cert-actions mt-3">
+                        <a href="#" class="cert-link-btn copper"><i class="fas fa-external-link-alt mr-1"></i>View
+                            Credential</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cert 3 -->
+            <div class="spotlight-card cert-card tilt-card reveal-up" data-delay="0.2" data-tilt data-tilt-max="4">
+                <div class="cert-img-slot">
+                    <a href="cipher.png" target="_blank">
+    <img src="cipher.png" alt="Cipher Certificate"
+        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+</a>
+                    <div class="img-placeholder violet-grad cert-ph"><i class="fab fa-python fa-2x"></i></div>
+                </div>
+                <div class="card-content p-4">
+                    <div class="cert-badge violet"><i class="fab fa-python"></i></div>
+                    <h4 class="cert-title">Python Development Training</h4>
+                    <p class="cert-issuer text-violet fw-bold">Cipher Schools — 70 Hours</p>
+                    <p class="cert-desc text-muted mt-2">In-depth Python programming with real-world application
+                        projects and hands-on exercises.</p>
+                    <div class="cert-actions mt-3">
+                        <a href="#" class="cert-link-btn violet"><i class="fas fa-external-link-alt mr-1"></i>View
+                            Credential</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ═══════════ CONTACT ═══════════ -->
+    <section id="contact" class="container section-gap mb-5">
+        <div class="section-label reveal-up">Contact</div>
+        <h2 class="section-title font-space reveal-up" data-delay="0.05">Initialize <span
+                class="text-gradient-flow">Connection</span></h2>
+
+        <div class="spotlight-card reveal-up mt-lg" data-delay="0.1">
+            <div class="card-content p-5">
+                <div class="grid-2">
+                    <div class="contact-left">
+                        <p class="body-text mb-5">Available for full-time opportunities and collaborative system
+                            deployments. Let's build something extraordinary together.</p>
+
+                        <div class="contact-node mb-3 magnetic-btn">
+                            <div class="contact-icon cyan"><i class="fas fa-envelope"></i></div>
+                            <a href="mailto:yuvaneshmani@gmail.com" class="contact-text">yuvaneshmani@gmail.com</a>
+                        </div>
+                        <div class="contact-node mb-5 magnetic-btn">
+                            <div class="contact-icon copper"><i class="fas fa-phone-alt"></i></div>
+                            <a href="tel:+919080544932" class="contact-text">+91 9080544932</a>
+                        </div>
+
+                        <div class="d-flex" style="gap:1rem;">
+                            <a href="https://linkedin.com/in/yuvaneshmani" target="_blank"
+                                class="social-sq cyan magnetic-btn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://github.com/YuvaneshMani" target="_blank"
+                                class="social-sq copper magnetic-btn"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="contact-right">
+                        <form onsubmit="event.preventDefault(); alert('Message Sent Successfully!');">
+                            <div class="input-pro mb-4">
+                                <input type="text" placeholder="Your Name" required>
+                            </div>
+                            <div class="input-pro mb-4">
+                                <input type="email" placeholder="Email Address" required>
+                            </div>
+                            <div class="input-pro mb-5">
+                                <textarea rows="4" placeholder="Your Message..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary magnetic-btn w-100 justify-center">
+                                <i class="fas fa-paper-plane mr-2"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container text-center">
+            <p class="footer-text font-space">&copy; 2026 <span class="text-gradient-flow fw-bold">Yuvanesh Mani</span>.
+                Engineered with Precision &amp; Passion.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
